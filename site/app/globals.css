@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    @apply bg-surface font-sans text-ink-soft antialiased;
+    font-weight: 400;
+    /* Stops iOS Safari painting a grey box over every tapped link. */
+    -webkit-tap-highlight-color: transparent;
+  }
+  /* A long unbroken word (an email address, a postcode list) must not widen the page on a phone.
+     Note: no overflow-x:hidden on html/body — that would break the sticky header. */
+  h1, h2, h3, p, address, li, dd, dt { overflow-wrap: break-word; }
+  ::selection { background: #DDE6DD; color: #173A31; }
+  :focus-visible { outline: 2px solid #173A31; outline-offset: 3px; border-radius: 6px; }
+  .bg-ink :focus-visible, .bg-ink-deep :focus-visible, footer :focus-visible { outline-color: #F6F1EA; }
+  h1, h2, h3 { text-wrap: balance; }
+  /* Below 380px, balanced wrapping produces very short ragged lines — pretty is worse than readable. */
+  @media (max-width: 379px) { h1, h2, h3 { text-wrap: normal; } }
+}
+
+@layer components {
+  .nav-link {
+    @apply inline-flex min-h-[44px] items-center text-sm text-ink transition-colors duration-300 hover:text-highlight-deep;
+  }
+}
+
+/* Without JavaScript, scroll-reveal content must stay visible. The inline script in <head> adds .js first. */
+html:not(.js) [data-reveal] { opacity: 1 !important; transform: none !important; }
+
+/* viewportFit:cover (app/layout.js) lets the page paint behind the home indicator, but in landscape
+   it also lets the notch overlap the gutter — which is wider than the 20px we have. Inset the body
+   there. Full-bleed dark sections show a thin cream edge in that one case; text under a notch is worse. */
+@media (orientation: landscape) and (max-width: 1023px) {
+  body { padding-left: env(safe-area-inset-left); padding-right: env(safe-area-inset-right); }
+}
+
+/* Anything the sticky Book pill could cover gets breathing room at the bottom on mobile. */
+@media (max-width: 767px) {
+  footer { padding-bottom: calc(2.5rem + env(safe-area-inset-bottom)); }
+}
+
+/* Hide the sticky Book pill while the mobile drawer is open */
+body[data-drawer-open] .book-pill { display: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
+}

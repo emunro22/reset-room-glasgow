@@ -22,7 +22,7 @@ export const areas = [
       heading: "Finding the *room*",
       body: [
         "The Reset Room is in Park Lane House, 47 Broad Street, Bridgeton, G40 2QW. Free parking is available nearby, and the area has good transport links into the city centre and across the East End.",
-        "Your booking confirmation includes everything you need to know for your visit. If you have any trouble finding the room on the day, call or message and Jodi will help.",
+        "Your booking confirmation includes everything you need to know for your visit. If you have any trouble finding the room on the day, call or message and I will help.",
       ],
       // TODO(client): Facebook post mentions third floor + lift, side entrance after 5.30pm weekdays and Sundays,
       // step-free access via side door, parking across from the building. Add once confirmed.
@@ -138,7 +138,7 @@ export const areas = [
       },
       {
         q: "I do physical work — which massage should I book?",
-        a: "Deep tissue massage is the usual choice for stubborn muscular tension, while hot stone massage suits people who want warmth rather than firm pressure. Jodi will adapt either on the day.",
+        a: "Deep tissue massage is the usual choice for stubborn muscular tension, while hot stone massage suits people who want warmth rather than firm pressure. I will adapt either on the day.",
       },
     ],
     nearby: ["bridgeton", "dennistoun", "rutherglen"],

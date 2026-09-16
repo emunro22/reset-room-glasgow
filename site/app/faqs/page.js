@@ -23,7 +23,7 @@ export default function FaqsPage() {
           <Eyebrow>Helpful answers</Eyebrow>
           <h1 className="font-display text-[2rem] font-normal leading-[1.12] text-ink min-[360px]:text-4xl min-[360px]:leading-[1.1] md:text-6xl">Massage &amp; Treatment FAQs</h1>
           <p className="mt-6 text-lg leading-relaxed text-ink-soft">
-            Everything you might want to know before your first visit. If your question isn&rsquo;t here, <TextLink href="/contact">get in touch</TextLink> and Jodi will be happy to help.
+            Everything you might want to know before your first visit. If your question isn&rsquo;t here, <TextLink href="/contact">get in touch</TextLink> and I will be happy to help.
           </p>
         </div>
       </section>

@@ -64,7 +64,7 @@ export default function ContactForm({ treatments, phone, phoneE164, email, booki
           required
           rows={5}
           className={input}
-          placeholder="Any questions before booking? Let Jodi know what's bothering you or what you'd like from a session."
+          placeholder="Any questions before booking? Let me know what's bothering you or what you'd like from a session."
         />
       </div>
       {/* Honeypot — hidden from people, tempting to bots */}
@@ -73,7 +73,7 @@ export default function ContactForm({ treatments, phone, phoneE164, email, booki
         <input id="cf-website" name="website" tabIndex={-1} autoComplete="off" />
       </div>
       <p className="text-sm leading-relaxed text-ink-soft">
-        Please don&rsquo;t include detailed medical information here — Jodi will go through anything relevant with you privately before your treatment.
+        Please don&rsquo;t include detailed medical information here — I will go through anything relevant with you privately before your treatment.
       </p>
       <div className="flex flex-wrap items-center gap-4">
         <button

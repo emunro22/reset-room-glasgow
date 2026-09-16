@@ -109,7 +109,7 @@ export default function TreatmentPage({ params }) {
               <H2 text={s.helpsWith.heading} className="!text-3xl md:!text-4xl" />
               <p className="mt-5 text-lg leading-relaxed text-ink-soft">{s.helpsWith.intro}</p>
               <CheckList items={s.helpsWith.items} className="mt-5" />
-              <p className="mt-5 leading-relaxed text-ink-soft">{s.helpsWith.outro}</p>
+              {s.helpsWith.outro && <p className="mt-5 leading-relaxed text-ink-soft">{s.helpsWith.outro}</p>}
               {s.caveat && (
                 <p className="mt-6 border-l-2 border-highlight-soft pl-4 text-sm leading-relaxed text-ink">{s.caveat}</p>
               )}
@@ -166,7 +166,7 @@ export default function TreatmentPage({ params }) {
               <p className="mt-5 leading-relaxed text-ink-soft">{s.rightForYou.intro}</p>
               <CheckList items={s.rightForYou.items} className="mt-4" />
               <p className="mt-5 leading-relaxed text-ink-soft">
-                Not sure? You don&rsquo;t need to have it all figured out before you book. <TextLink href="/contact">Ask Jodi a question</TextLink> and she&rsquo;ll help you choose.
+                Not sure? You don&rsquo;t need to have it all figured out before you book. <TextLink href="/contact">Ask me a question</TextLink> and I&rsquo;ll help you choose.
               </p>
             </div>
           </div>

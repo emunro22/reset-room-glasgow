@@ -8,9 +8,9 @@ import { services } from "@/content/services";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "Contact The Reset Room Glasgow | Massage, Bridgeton",
+  title: "Contact The Reset Room Glasgow",
   description:
-    "Questions before booking? Contact Jodi at The Reset Room Glasgow in Bridgeton by phone, email or social media, and find directions. Or book online today.",
+    "Get in touch with The Reset Room Glasgow for massage therapy and holistic treatments in Glasgow’s East End.",
   path: "/contact",
 });
 

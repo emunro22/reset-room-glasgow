@@ -22,9 +22,9 @@ export const metadata = buildMetadata({ title: s.metaTitle, description: s.metaD
 const fmt = (iso, opts) => new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/London", ...opts }).format(new Date(iso));
 
 const expect = [
-  { title: "Get comfortable", desc: "Settle in lying down, with support for your head and body so you can stay still without effort." },
-  { title: "Let yourself listen", desc: "Sound is introduced gradually — singing bowls, gongs and chimes played slowly in layers. You're free to relax fully or drift in and out." },
-  { title: "Leave slowly", desc: "The sound fades and there's time to come back gradually before heading out, without having to rush." },
+  { title: "Get comfortable", desc: "I will help you settle into a comfortable position, usually lying down, with support for your head and body." },
+  { title: "Let yourself listen", desc: "I introduce the instruments gradually and play them in layers around the room. You can keep your eyes open or closed and may drift in and out of sleep." },
+  { title: "Leave slowly", desc: "The sound fades and there is time to come back gradually before heading out, without having to rush." },
 ];
 
 export default function SoundBathsPage() {
@@ -40,12 +40,11 @@ export default function SoundBathsPage() {
             <Prose
               className="mt-6 max-w-2xl"
               paragraphs={[
-                "If you're feeling mentally busy or simply in need of quiet time, a sound bath gives you space to pause. Lie back, get comfortable and let singing bowls, gongs and chimes help you slow down.",
-                "It's a different kind of relaxation — one that doesn't rely on touch. There's nothing to do and nothing to get right.",
+                "Lie back and listen as gongs, singing bowls and chimes fill the room. Sound baths offer an accessible form of guided relaxation for busy minds, tired bodies and anyone who finds silent meditation difficult.",
               ]}
             />
             <div className="mt-8 flex flex-wrap gap-3">
-              <ButtonLink href="#upcoming">See upcoming sound baths</ButtonLink>
+              <ButtonLink href="#upcoming">View Upcoming Sound Baths</ButtonLink>
               <ButtonLink href="#how-it-works" variant="secondary">How it works</ButtonLink>
             </div>
           </div>
@@ -56,7 +55,7 @@ export default function SoundBathsPage() {
       {/* Upcoming */}
       <Section tone="white" id="upcoming" className="scroll-mt-20">
         <Eyebrow>Upcoming sessions</Eyebrow>
-        <H2 text="Your next chance to *switch off*" />
+        <H2 text="Upcoming Sound Baths in *Glasgow*" />
         {events.length ? (
           <ul className="mt-10 grid gap-6 md:grid-cols-2">
             {events.map((e) => (
@@ -100,35 +99,29 @@ export default function SoundBathsPage() {
       <Section tone="cream">
         <div className="grid gap-12 md:grid-cols-2 md:gap-20">
           <div>
-            <H2 text="What is a sound *bath*?" />
+            <H2 text="Deep Rest Through Sound and *Stillness*" />
             <Prose
               className="mt-6"
               paragraphs={[
-                "A sound bath is a guided relaxation session where sound is used to help you rest. Instruments such as singing bowls, gongs and chimes are played slowly and intentionally, creating layers of sound that you simply listen to.",
-                "For many people, switching off isn't easy. Even when the body is still, the mind keeps going — thinking, planning, replaying. The tones and rhythm give your mind something gentle to rest on, which can make it easier to let that constant activity fade into the background.",
-                "Many people relax more deeply than they expected, sometimes without realising until afterwards.",
+                "You do not need to clear your mind or follow a complicated technique. The changing tones give your attention somewhere to rest while you lie comfortably and allow the session to unfold.",
               ]}
             />
+            <p className="mt-6 border-l-2 border-highlight-soft pl-4 text-sm leading-relaxed text-ink">
+              A sound bath may feel calming, but it is a complementary wellbeing experience rather than a treatment for
+              anxiety, insomnia or another medical condition.
+            </p>
           </div>
           <div>
-            <H3 text="Why people come to a sound *bath*" />
+            <H3 text="People often *attend* because they" />
             <CheckList
               className="mt-6"
               items={[
-                "Time to slow down mentally",
-                "A break from constant screens and stimulation",
-                "Deep rest without any effort",
-                "No experience needed — nothing to learn or get right",
-              ]}
-            />
-            <H3 text="Who it may *suit*" className="mt-12" />
-            <CheckList
-              className="mt-6"
-              items={[
-                "You feel mentally overwhelmed or constantly switched on",
-                "You find meditation hard to get into",
-                "You'd prefer a treatment with no touch",
-                "You're new to wellbeing practices and want something simple",
+                "Feel stressed or overstimulated",
+                "Find it difficult to switch off",
+                "Want a non-touch wellbeing experience",
+                "Are curious about meditation but struggle with silence",
+                "Enjoy gongs, singing bowls and immersive sound",
+                "Want protected time to rest",
               ]}
             />
           </div>
@@ -139,7 +132,7 @@ export default function SoundBathsPage() {
       <Section tone="sage" id="how-it-works" className="scroll-mt-20">
         <div className="mx-auto max-w-3xl text-center">
           <Eyebrow>What to expect</Eyebrow>
-          <H2 text="Come in, lie down, *exhale*" />
+          <H2 text="What Happens at a Sound *Bath*" />
         </div>
         <ol className="mt-12 grid gap-6 md:grid-cols-3">
           {expect.map((st, i) => (
@@ -153,7 +146,9 @@ export default function SoundBathsPage() {
           ))}
         </ol>
         <p className="mx-auto mt-10 max-w-2xl text-center text-ink-soft">
-          Wear warm, comfortable clothes. Any specific details for a session are shared with the event information.
+          Every session feels different. Some people notice the vibration physically, while others focus more on the
+          tones or simply enjoy being still. Date, time, venue, what to bring and price are shown with each event
+          listing.
         </p>
       </Section>
 
@@ -161,25 +156,28 @@ export default function SoundBathsPage() {
       <Section tone="white">
         <div className="grid gap-12 md:grid-cols-2 md:gap-20">
           <div>
-            <H3 text="Sound bath vs *massage*" />
+            <H3 text="Sound Bath or *Meditation*" />
             <dl className="mt-6 divide-y divide-border border-y border-border">
               <div className="grid gap-1 py-4 sm:grid-cols-[9rem_1fr] sm:gap-6">
-                <dt className="font-medium text-ink">Massage</dt>
-                <dd className="text-ink-soft">Works through physical touch and muscle tension.</dd>
+                <dt className="font-medium text-ink">Silent meditation</dt>
+                <dd className="text-ink-soft">Often asks you to return attention to the breath or another focus.</dd>
               </div>
               <div className="grid gap-1 py-4 sm:grid-cols-[9rem_1fr] sm:gap-6">
                 <dt className="font-medium text-ink">Sound bath</dt>
-                <dd className="text-ink-soft">Works through sound and stillness, with no touch at all.</dd>
+                <dd className="text-ink-soft">The live sound provides that focus for you.</dd>
               </div>
             </dl>
             <p className="mt-5 leading-relaxed text-ink-soft">
-              Some clients enjoy both, choosing <TextLink href="/treatments/swedish-massage">massage</TextLink> when their body feels tense and a sound bath when it&rsquo;s their mind that needs a break.
+              This can make the experience feel more approachable for beginners, although distraction and wandering
+              thoughts are still completely normal. For physical muscle tension, compare{" "}
+              <TextLink href="/treatments">massage treatments</TextLink>.
             </p>
           </div>
           <div>
             <H3 text="Prefer it one-to-one? Try Reiki with *sound*" />
             <p className="mt-6 leading-relaxed text-ink-soft">
-              If you like the idea of sound but would rather a private session, singing bowls can be brought into a one-to-one Reiki treatment. It keeps the calm, immersive feel of a sound bath in the quiet of the treatment room.
+              For a private one-to-one treatment with little or no touch, consider Reiki. Singing bowls can be brought
+              into the session, keeping the calm, immersive feel of a sound bath in the quiet of the treatment room.
             </p>
             <p className="mt-5"><TextLink href="/treatments/reiki">Explore Reiki</TextLink></p>
             {/* TODO(client): private/group sessions (friendship groups, workplaces) — mockup only. Add a section here only if offered. */}

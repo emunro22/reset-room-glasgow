@@ -5,7 +5,7 @@
 // Note: the live gong photo is renamed (see scripts/migrate-images.mjs) to keep therapy-claim wording out of filenames.
 
 export const images = {
-  "jodi-massage-therapist-glasgow.jpg": "Jodi, massage and holistic therapist at The Reset Room Glasgow",
+  "jodi-massage-therapist-glasgow.jpg": "Jodi massage and holistic therapist at The Reset Room Glasgow",
   "massage-treatment-room-glasgow-east-end.jpeg": "Private massage treatment room at The Reset Room in Bridgeton, Glasgow East End",
   "massage-room-glasgow-east-end.jpg": "Massage table and soft lighting in the treatment room at The Reset Room Glasgow",
   "massage-treatment-room-glasgow.jpg": "Comfortable massage treatment room at The Reset Room Glasgow",

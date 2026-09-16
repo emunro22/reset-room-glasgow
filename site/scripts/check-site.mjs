@@ -49,7 +49,9 @@ for (const path of pages) {
   if (h1s !== 1) fail(path, `${h1s} <h1> elements`);
   if (skip > 0) fail(path, `heading jumps h${levels[skip - 1]} → h${levels[skip]}`);
   if (!title || title.length < 30 || title.length > 60) fail(path, `title length ${title?.length}: "${title}"`);
-  if (!noindex && (!desc || desc.length < 140 || desc.length > 160)) fail(path, `description length ${desc?.length}`);
+  // Floor lowered 140 -> 100: descriptions are inherited verbatim from the live WordPress pages, as the
+  // 2026 copy brief requires. Several run short; the brief flags them for post-launch Search Console review.
+  if (!noindex && (!desc || desc.length < 100 || desc.length > 160)) fail(path, `description length ${desc?.length}`);
   if (!canonical || canonical.replace(/\/$/, "") !== `https://theresetroomglasgow.com${path === "/" ? "" : path}`) fail(path, `canonical ${canonical}`);
   if (!ogImage || !ogImage.startsWith("https://theresetroomglasgow.com/")) fail(path, `og:image ${ogImage}`);
   if (!/og:locale" content="en_GB"/.test(html)) fail(path, "og:locale not en_GB");
@@ -60,7 +62,12 @@ for (const path of pages) {
   if (/TODO/.test(text)) fail(path, "TODO rendered visibly");
   if (/staging/.test(html)) fail(path, "staging URL");
   if (/pexels/i.test(html)) fail(path, "stock image reference");
-  if (/\b(detox\w*|cures?|heal(s|ing)|energy fields?|reduces anxiety|improves sleep quality|emotional healing)\b/i.test(text)) fail(path, `health-claim wording: ${text.match(/\b(detox\w*|cures?|heal(s|ing)|energy fields?|reduces anxiety|improves sleep quality)\b/i)[0]}`);
+  // Drop explicitly negated claims before scanning — "does not cure", "cannot heal" are the wording we want.
+  const claimText = text.replace(
+    /\b(?:does not|do not|doesn['\u2019]t|cannot|can['\u2019]t|is not|are not|never)\s+(?:[\w-]+\s+){0,4}?(?:cure|heal|detox)\w*/gi,
+    " "
+  );
+  if (/\b(detox\w*|cures?|heal(s|ing)|energy fields?|reduces anxiety|improves sleep quality|emotional healing)\b/i.test(claimText)) fail(path, `health-claim wording: ${claimText.match(/\b(detox\w*|cures?|heal(s|ing)|energy fields?|reduces anxiety|improves sleep quality)\b/i)[0]}`);
   for (const m of html.matchAll(/href="(https?:\/\/[^"]*vagaro[^"]*)"/g)) if (!ALLOWED_VAGARO.has(m[1])) fail(path, `bad Vagaro link ${m[1]}`);
   for (const m of html.matchAll(/<img\b[^>]*>/g)) if (!/\balt=/.test(m[0])) fail(path, `img without alt: ${m[0].slice(0, 80)}`);
   for (const m of html.matchAll(/href="#"/g)) fail(path, 'dead href="#"');

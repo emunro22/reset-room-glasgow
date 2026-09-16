@@ -16,12 +16,11 @@ export const business = {
   phoneE164: "+447737171101",
   email: "hello@theresetroomglasgow.com",
   address: {
-    // TODO(client): confirm exact Google Business Profile spelling. Variants found in the wild:
-    //   "Suite 3, 14-15 Park Lane House" (live site footer)
-    //   "Parklane House" (live contact map embed)
-    //   "Suite 3-14/3-15, Park Lane House" (Fresha listing)
-    //   "Suite 3/14-15 Park Lane House" (Facebook "how to find us" post)
-    line1: "Suite 3, 14-15 Park Lane House",
+    // Wording taken from the 2026 website copy and SEO brief, which supersedes the variants previously
+    // found in the wild ("Suite 3, 14-15 Park Lane House" on the live footer, "Parklane House" on the
+    // contact map embed, "Suite 3-14/3-15" on Fresha, "Suite 3/14-15" on Facebook).
+    // TODO(client): confirm this also matches the Google Business Profile spelling exactly.
+    line1: "Rooms 3/14 and 3/15, Park Lane House",
     line2: "47 Broad Street",
     locality: "Glasgow",
     area: "Bridgeton",

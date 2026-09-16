@@ -22,13 +22,12 @@ export const services = [
     oldUrl: "/deep-tissue-massage-glasgow/",
     h1: "Deep Tissue Massage in Glasgow",
     eyebrow: "Targeted massage in Glasgow's East End",
-    metaTitle: "Deep Tissue Massage Glasgow | The Reset Room Glasgow",
+    metaTitle: "Deep Tissue Massage Glasgow - The Reset Room Glasgow",
     metaDescription:
-      "Deep tissue massage in Glasgow's East End for stubborn back, neck and shoulder tension. Focused pressure, always led by you. Book online today.",
+      "Deep tissue massage in Glasgow for muscle tension, pain relief and recovery. Tailored treatments in a calm, private East End setting.",
     shortDesc: "Focused, tailored pressure for stubborn tension and back, neck and shoulder tightness.",
     intro: [
-      "If your body feels tight, sore or restricted, deep tissue massage works slowly into the areas that need the most attention — without treating massage like a test of endurance.",
-      "Whether it's an aching lower back, shoulders that live up by your ears after a week at a desk, or general muscle fatigue from training, every session in the Bridgeton treatment room is shaped around how your body feels on the day.",
+      "Focused massage for tight muscles, stubborn back discomfort and neck or shoulder tension. I tailor your session to where you feel restricted and to the level of pressure your body can comfortably respond to.",
     ],
     image: "deep-tissue-massage-treatment-glasgow.jpg",
     suitsYouIf: [
@@ -38,18 +37,18 @@ export const services = [
       "You prefer firmer, focused pressure",
     ],
     helpsWith: {
-      heading: "What deep tissue massage may *help* with",
+      heading: "Deep tissue massage for back, neck and shoulder *tension*",
       intro:
-        "Deep tissue massage is often chosen by people living with ongoing muscular tension, discomfort or restricted movement, such as:",
+        "Hours at a desk, repetitive work, driving, training or stress can leave muscles feeling dense, sore or difficult to move. I use slower movements and focused pressure to spend time on the areas that need attention rather than rushing across the whole body. Clients commonly book for:",
       items: [
-        "Lower back stiffness and muscular aches",
-        "Neck and shoulder tension",
-        "Tight hips and glutes that can add to sciatic discomfort",
-        "Postural tension from desk-based work",
-        "General aches and physical fatigue after training",
+        "Muscular lower-back tightness and stiffness",
+        "Knots around the shoulders and upper back",
+        "Neck tension linked with posture or screen work",
+        "Tight hips and glutes",
+        "General muscle fatigue after physical activity",
+        "Recurring areas of restricted movement",
       ],
-      outro:
-        "Many clients book after trying to ignore that tightness for weeks or months. Over time the body adapts to tension, and slow, targeted work can help it let go.",
+      outro: null,
     },
     sections: [
       {
@@ -61,26 +60,27 @@ export const services = [
         link: { href: "/treatments/swedish-massage", label: "Prefer something lighter? See Swedish massage" },
       },
       {
-        heading: "A *personal* approach",
+        heading: "What deep tissue massage *feels* like",
         body: [
-          "No two people carry tension in the same way. Some hold it in their shoulders, others in the lower back or hips, often without realising how much it's affecting them day to day.",
-          "That's why every deep tissue massage begins with a conversation about where you feel discomfort, what makes it worse and how much pressure feels right. The session can focus on one problem area or combine targeted work with enough flowing massage to help you relax. Throughout, you're encouraged to speak up — effective treatment comes from working with your body, not forcing through pain.",
+          "Deep tissue massage does not mean applying the hardest possible pressure. In more than 10 years of practice, I have found that slower, precise work is often more useful than simply pressing harder. I check how the treatment feels and adjust the pressure as your muscles respond.",
+          "Some areas may feel tender while long-standing tension is being worked on, but you should still feel in control. You can ask for the pressure to change at any time.",
         ],
       },
     ],
     whatToExpect: {
-      intro: "If you're new to deep tissue massage, here's how a session usually goes.",
+      intro:
+        "I begin with a short consultation about where you feel tension, how it affects you and any health information relevant to massage. I then focus on the areas that need attention and adapt the techniques throughout.",
       during: [
-        "Pressure is adjusted to your comfort — tell Jodi any time it's too much or too little",
+        "Pressure is adjusted to your comfort — tell me any time it is too much or too little",
         "Focus areas are worked slowly and carefully",
         "Techniques change as your muscles respond",
       ],
       after: [
-        "You may feel looser and move more freely",
-        "Areas that held tension for a long time can feel mildly tender",
-        "Water, gentle movement and a quieter evening help your body settle",
+        "You may feel looser, more relaxed or more aware of how you move",
+        "Temporary tenderness can happen after focused work",
+        "Normal movement and water may help you feel comfortable",
       ],
-      note: "Any mild soreness is normal when muscles have been tight for a while, and usually settles within a day or two.",
+      note: "Gentle movement and rest are usually more useful than forcing a workout immediately afterwards.",
     },
     benefits: [
       { title: "Eases stubborn tension", desc: "Slow, focused work on the areas that feel tightest." },
@@ -89,17 +89,18 @@ export const services = [
       { title: "Calm as well as focused", desc: "Firm doesn't mean rushed — there's still space to unwind." },
     ],
     process: steps(
-      "Jodi asks where you feel tight, what makes it worse and how firm you like the pressure.",
-      "Pressure and focus areas change as your muscles respond. You can ask for lighter or firmer at any point.",
+      "I ask where you feel tight, what makes it worse and how firm you like the pressure.",
+      "I change the pressure and focus areas as your muscles respond. You can ask for lighter or firmer at any point.",
       "Take a few minutes before heading back out. Drink some water and keep moving gently through the day."
     ),
     comparison: {
-      heading: "Deep tissue or Swedish?",
+      heading: "Deep tissue or Swedish *massage*",
       points: [
-        { label: "Deep tissue massage", text: "Slower, firmer and targeted at specific areas of tension." },
-        { label: "Swedish massage", text: "Lighter, flowing strokes across the whole body, focused on relaxation." },
+        { label: "Deep tissue massage", text: "Focused work on persistent muscular tightness." },
+        { label: "Swedish massage", text: "Relaxation and a flowing full-body treatment rather than concentrated pressure." },
       ],
-      text: "If you're unsure, book the one that sounds closest — the pressure can be adapted either way on the day.",
+      text: "If you like warmth but not very firm pressure, hot stone massage may suit you better.",
+      link: { href: "/treatments/hot-stone-massage", label: "Compare hot stone massage" },
     },
     rightForYou: {
       intro: "Deep tissue massage may be right for you if you:",
@@ -110,29 +111,30 @@ export const services = [
         "Want a focused treatment rather than a general relax",
       ],
     },
-    caveat: PAIN_CAVEAT,
+    caveat:
+      "Massage may help ease muscular tension and improve your sense of comfort, but it cannot diagnose the cause of pain. New, severe or unexplained symptoms should be assessed by an appropriate healthcare professional.",
     duration: null, // TODO(client)
     priceFrom: null, // TODO(client)
     faqs: [
       {
         q: "Does deep tissue massage hurt?",
-        a: "It can feel more intense than a relaxation massage, particularly in areas of built-up tension, but it should never feel overwhelming. Pressure is always adjusted to your comfort. The aim isn't to push through pain, but to work in a way that lets your muscles release gradually. Some spots may feel more sensitive if they've been tight for a long time — just say so at any point and the pressure will change.",
+        a: "It can feel intense when a sensitive area is being worked on, but it should never feel unbearable. Pressure is adjusted to your comfort and can be changed at any time.",
       },
       {
         q: "Is deep tissue massage good for back pain?",
-        a: "It's commonly chosen by people with lower back stiffness or ongoing muscular tension. Working into the deeper layers of muscle may ease the tightness that contributes to discomfort and make everyday movement feel easier. Massage doesn't treat underlying medical conditions, so if your back pain is persistent, severe or unexplained, please see your GP or a healthcare professional.",
+        a: "It may help when discomfort is associated with muscular tightness or stiffness. Massage does not identify or treat every cause of back pain, so seek medical advice for severe, persistent, unexplained or worsening symptoms.",
       },
       {
         q: "Can deep tissue massage help sciatica?",
-        a: "It may ease tension in the muscles around the lower back, hips and glutes. When those areas are tight they can add to discomfort, and helping them relax can make things feel more manageable. Massage doesn't address the root cause of sciatica, so it's best seen as supportive alongside advice from your GP or physiotherapist.",
+        a: "Massage may ease tension in muscles around the lower back, hips and glutes, which some people find helpful alongside appropriate care. It does not treat compression or irritation of the sciatic nerve itself. Seek clinical advice if you have radiating pain, numbness, weakness or changes in bladder or bowel control.",
       },
       {
-        q: "How often should I get a deep tissue massage?",
-        a: "It depends on how your body feels and what you're hoping for. People managing tension that keeps building up often book more regularly; others book occasionally for maintenance. A good guide is how quickly the tightness returns — frequency can be adjusted around how you respond.",
+        q: "How often should I book deep tissue massage?",
+        a: "That depends on how quickly tension returns, your activity and your aims. Some clients begin with closer appointments and increase the gap as things settle; others book only when needed. I can discuss a sensible interval without asking you to commit to a package.",
       },
       {
-        q: "What should I do after a deep tissue massage?",
-        a: "Drink some water, keep moving gently rather than sitting still for hours, and give yourself time to rest if you need it. Any tenderness usually settles within a day or two.",
+        q: "What should I do after deep tissue massage?",
+        a: "Normal movement, water and a quieter remainder of the day may help you feel comfortable. Do not assume that soreness means a treatment has worked. Contact me if anything feels unusual or does not settle.",
       },
     ],
     relatedServices: ["swedish-massage", "hot-stone-massage", "indian-head-massage"],
@@ -146,13 +148,12 @@ export const services = [
     oldUrl: "/swedish-massage-glasgow/",
     h1: "Swedish Massage in Glasgow",
     eyebrow: "Full-body relaxation in Glasgow's East End",
-    metaTitle: "Swedish Massage Glasgow | The Reset Room Glasgow",
+    metaTitle: "Swedish Massage Glasgow - The Reset Room Glasgow",
     metaDescription:
-      "Swedish massage in Glasgow: a calming, flowing full-body treatment to ease general tension and help you properly switch off. Book your session online.",
+      "Swedish massage in Glasgow designed to help you relax, reduce stress and ease tension in a calm, private treatment space.",
     shortDesc: "A calming, flowing full-body massage to ease tension and help you properly switch off.",
     intro: [
-      "If you're feeling tense, run down or in need of proper time to switch off, Swedish massage is a calming full-body treatment designed to help you relax and feel more comfortable in your body.",
-      "It's the classic massage most people picture: long, flowing strokes, light to moderate pressure and an unhurried rhythm — adapted on the day to how you feel.",
+      "A flowing full-body massage for everyday muscular tension, stress and proper time to switch off. I use light-to-moderate pressure and adapt it to what feels comfortable for you.",
     ],
     image: "massage-treatment-room-glasgow-east-end.jpeg",
     suitsYouIf: [
@@ -162,16 +163,18 @@ export const services = [
       "You feel tired and run down",
     ],
     helpsWith: {
-      heading: "What Swedish massage may *help* with",
-      intro: "Swedish massage is a good fit when you're looking for relaxation more than targeted work — for example:",
+      heading: "Swedish massage for stress and muscle *tension*",
+      intro:
+        "Busy weeks, desk work and poor rest can leave the whole body feeling tense without one obvious problem area. I use long strokes, kneading and smooth rhythmic movements to help muscles soften while you settle into the treatment. It is a good choice if you:",
       items: [
-        "General, whole-body tension",
-        "Stress and the feeling of being constantly \u201con\u201d",
-        "Finding it hard to switch off",
-        "Feeling tired and run down",
-        "Wanting a gentle first massage",
+        "Feel generally tense or stressed",
+        "Carry everyday tightness in your back, neck or shoulders",
+        "Want a full-body relaxation massage",
+        "Prefer lighter pressure than deep tissue massage",
+        "Are new to massage",
+        "Find it difficult to slow down or rest",
       ],
-      outro: "It isn't about fixing one specific issue. It's about giving your whole body and mind a chance to slow down together.",
+      outro: null,
     },
     sections: [
       {
@@ -198,14 +201,19 @@ export const services = [
       },
     ],
     whatToExpect: {
-      intro: "Your session starts with a short conversation about how you're feeling and what you'd like from the treatment.",
+      intro:
+        "I start with a short consultation about pressure, focus areas and anything you would like avoided. The massage then moves smoothly across the agreed areas rather than concentrating only on one knot or muscle group.",
       during: [
-        "Pressure is adjusted to suit you",
-        "The massage flows across the whole body",
-        "You stay covered with towels, with only the area being worked on uncovered",
+        "I keep you covered with towels and uncover only the area being massaged",
+        "Long, flowing strokes across the areas we agreed",
+        "You can ask for a change in pressure, more warmth or less conversation at any point",
       ],
-      after: ["Relaxed and unhurried", "Physically lighter and less tense", "Calmer in your head"],
-      note: "For many people that settled feeling lasts well beyond the session.",
+      after: [
+        "Many clients feel physically looser and mentally calmer",
+        "A settled, unhurried feeling rather than soreness",
+        "Some people find it easier to wind down that evening",
+      ],
+      note: "The aim is not to leave you sore; it is to help the body settle.",
     },
     benefits: [
       { title: "Deeply relaxing", desc: "A slow, rhythmic treatment designed to help you unwind." },
@@ -219,12 +227,13 @@ export const services = [
       "No need to jump straight up. Take your time, have some water and ease back into your day."
     ),
     comparison: {
-      heading: "Swedish vs deep tissue — what's the difference?",
+      heading: "Swedish or deep tissue *massage*",
       points: [
-        { label: "Swedish massage", text: "Relaxation, flow and a lighter touch across the whole body." },
-        { label: "Deep tissue massage", text: "Works more specifically on deeper muscle tension in targeted areas." },
+        { label: "Swedish massage", text: "Prioritises relaxation, flow and general tension." },
+        { label: "Deep tissue massage", text: "Slower, more focused work for persistent muscular tightness." },
       ],
-      text: "If you're not sure which is right, Swedish massage is often a good place to start — especially when your main goal is to relax.",
+      text: "If you want a deeply warming treatment without very firm pressure, compare hot stone massage.",
+      link: { href: "/treatments/hot-stone-massage", label: "Compare hot stone massage" },
     },
     rightForYou: {
       intro: "Swedish massage is particularly well suited to you if you:",
@@ -242,27 +251,23 @@ export const services = [
     faqs: [
       {
         q: "What is a Swedish massage?",
-        a: "A relaxing full-body massage using long, flowing strokes and gentle to moderate pressure. It works across the whole body rather than focusing on one area, which makes it a good choice if you feel generally tense or in need of a reset.",
+        a: "Swedish massage is a classic style using flowing strokes, kneading and rhythmic movements. It usually uses light-to-moderate pressure and works well for full-body relaxation and everyday muscular tension.",
       },
       {
-        q: "Is Swedish massage good for beginners?",
-        a: "Yes — it's the treatment most often recommended for a first massage. The pressure is lighter and the techniques are smooth, so it's a comfortable introduction that never feels overwhelming, and everything can be adapted to your comfort level.",
+        q: "Is Swedish massage suitable for a first massage?",
+        a: "Yes. I can begin gently and adjust the pressure as you settle. I will explain what to expect and check your preferences before the treatment starts.",
       },
       {
-        q: "What is the difference between Swedish and deep tissue massage?",
-        a: "Pressure and focus. Swedish massage uses lighter, continuous strokes across the whole body for relaxation. Deep tissue massage works more slowly into deeper muscle layers to target specific areas of tightness. If your goal is to switch off, Swedish is usually the better choice; if tension is persistent and localised, deep tissue may suit you better.",
+        q: "Can Swedish massage help back, neck and shoulder tension?",
+        a: "It may ease general muscular tightness in these areas, especially when it is linked with everyday posture or stress. Deep tissue massage may be more suitable when you want concentrated work on a persistent area.",
       },
       {
-        q: "How often should I get a Swedish massage?",
-        a: "If you're using it to keep on top of stress and tension, every few weeks works well for many people. Booking occasionally, whenever you feel you need a reset, is just as valid. You can adjust based on how you feel after each session.",
+        q: "Will Swedish massage help me sleep?",
+        a: "Many clients feel relaxed after massage and find it easier to wind down, but responses vary. Massage should support rest rather than be presented as a treatment for a sleep disorder.",
       },
       {
-        q: "Will Swedish massage help with stress?",
-        a: "It's one of the most popular treatments for people who want to unwind. The combination of flowing techniques, gentle pressure and a quiet room helps your body relax, and many clients say they feel calmer and less tense afterwards. It isn't a replacement for other support if stress is affecting your health.",
-      },
-      {
-        q: "Where can I book Swedish massage in Glasgow?",
-        a: "At The Reset Room Glasgow, a private treatment room in Bridgeton in the East End, a short trip from the city centre. You can see live availability and book online.",
+        q: "How often should I have Swedish massage?",
+        a: "Book according to your needs and budget. Some people enjoy a regular appointment every few weeks, while others book when stress or tension begins to build.",
       },
     ],
     relatedServices: ["deep-tissue-massage", "hot-stone-massage", "reflexology"],
@@ -276,13 +281,12 @@ export const services = [
     oldUrl: "/pregnancy-massage-glasgow/",
     h1: "Pregnancy Massage in Glasgow",
     eyebrow: "Pregnancy and postnatal massage",
-    metaTitle: "Pregnancy Massage Glasgow | The Reset Room Glasgow",
+    metaTitle: "Pregnancy Massage Glasgow - The Reset Room Glasgow",
     metaDescription:
-      "Gentle pregnancy and postnatal massage in Glasgow, carefully adapted to each stage with side-lying support. By a trained, insured therapist. Book online.",
+      "Pregnancy massage in Glasgow designed to ease tension, reduce discomfort and help you relax in a calm, supportive setting.",
     shortDesc: "Safe, gentle, carefully adapted massage through pregnancy and postnatal recovery.",
     intro: [
-      "Pregnancy massage offers a calm, supportive way to ease tension and discomfort and give yourself time to properly rest while your body changes.",
-      "Whether it's an aching lower back, heavy legs or simply the physical demands of pregnancy, every treatment is adapted to your stage and how you're feeling on the day.",
+      "Comfortable, carefully adapted massage for the physical demands of pregnancy. I use supportive positioning and personalised pressure to help you rest while easing muscular tension around the back, hips and shoulders.",
     ],
     reassurance:
       "If you have any specific medical concerns, or you're unsure whether massage is right for you, please check with your GP or midwife before booking.",
@@ -294,18 +298,19 @@ export const services = [
       "You've recently had your baby and need time to recover",
     ],
     helpsWith: {
-      heading: "How pregnancy massage can *support* you",
+      heading: "Massage for pregnancy back, hip and shoulder *tension*",
       intro:
-        "As your body changes it's common to notice discomfort building. Pregnancy massage is often chosen to help with:",
+        "As posture and weight distribution change, familiar movements can begin to feel different. I adapt pregnancy massage around the stage you are at, how you feel on the day and the areas where you need support. Clients often book for:",
       items: [
-        "Lower back and pelvic discomfort",
+        "Muscular lower-back discomfort",
+        "Tight hips and glutes",
         "Neck and shoulder tension",
-        "A heavy or puffy feeling in the legs, feet and hands",
-        "Tiredness and general aches",
-        "Finding time to properly rest",
+        "Tired or heavy-feeling legs",
+        "General aches and fatigue",
+        "Stress or difficulty switching off",
+        "Time to feel comfortable and cared for",
       ],
-      outro:
-        "For many mums-to-be it isn't only about physical comfort — it's about having space to pause, breathe and feel looked after.",
+      outro: null,
     },
     sections: [
       {
@@ -340,7 +345,7 @@ export const services = [
         heading: "Postnatal and postpartum *massage*",
         body: [
           "Massage can also support your body after you've given birth. Postnatal massage is often booked to ease tension from feeding positions, carrying your baby and general tiredness — and to give you an hour of real rest during a demanding time.",
-          "There's no fixed timeline for when to start. It's about when you feel ready, and if you're unsure, Jodi can talk it through with you first.",
+          "There's no fixed timeline for when to start. It's about when you feel ready, and if you're unsure, I can talk it through with you first.",
         ],
       },
       {
@@ -356,14 +361,18 @@ export const services = [
     ],
     whatToExpect: {
       intro:
-        "Your appointment starts with a short consultation about how you're feeling, how far along you are and anything you'd like to focus on.",
+        "You will not be expected to lie in one position for the full session. I can help you move, add support or change position whenever needed.",
       during: [
-        "You'll be supported with cushions, usually lying on your side",
-        "Pressure stays gentle and appropriate for your stage",
-        "Focus areas are adjusted to where you feel it most",
+        "Comfortable positioning with cushions and support, usually side-lying",
+        "Pressure, treatment areas and temperature adjusted throughout",
+        "You remain appropriately covered at all times",
       ],
-      after: ["More relaxed and at ease", "Less physical tension", "Glad of the time to rest"],
-      note: "Take your time getting up — there's no rush to leave the table.",
+      after: [
+        "Muscular tension around the back, hips and shoulders may feel easier",
+        "Many clients simply feel rested and looked after",
+        "You can take your time before heading back out",
+      ],
+      note: "Your appointment begins with a consultation about your pregnancy, current symptoms and any advice from your midwife or doctor. Tell me about complications, changes in your health or anything that does not feel normal before the massage begins.",
     },
     benefits: [
       { title: "Adapted to your stage", desc: "Positioning and pressure change as your pregnancy progresses." },
@@ -376,7 +385,15 @@ export const services = [
       "Gentle, supported massage with cushions. Move or change position whenever you need to.",
       "Get up slowly, have some water and take the calm feeling home with you."
     ),
-    comparison: null,
+    comparison: {
+      heading: "Postnatal massage in *Glasgow*",
+      points: [
+        { label: "During pregnancy", text: "Supportive positioning and pressure adapted to your stage." },
+        { label: "After birth", text: "Time to rest when feeding positions, lifting and broken sleep leave the back and shoulders tense." },
+      ],
+      text: "Contact me if you are unsure when to return after birth or after a Caesarean section, as timing and positioning must suit your recovery and clinical advice.",
+      link: { href: "/contact", label: "Ask about postnatal timing" },
+    },
     rightForYou: {
       intro: "Pregnancy massage may suit you if you:",
       items: [
@@ -386,33 +403,29 @@ export const services = [
         "Find it hard to set aside time to rest",
       ],
     },
-    caveat: PAIN_CAVEAT,
+    caveat: "Massage may help with muscular tension and relaxation, but it does not replace maternity or medical care.",
     duration: null, // TODO(client)
     priceFrom: null, // TODO(client)
     faqs: [
       {
-        q: "When can you start pregnancy massage?",
-        a: "It's often recommended after the first trimester, but that isn't a strict rule for everyone. Some people wait until later on; others feel comfortable booking earlier depending on their circumstances. What matters most is that the treatment is adapted and that you feel confident. If you're unsure, check with your GP or midwife, or get in touch before booking.",
+        q: "When can I start pregnancy massage?",
+        a: "Suitability depends on your health and pregnancy rather than one rule for everyone. Contact me if you are early in pregnancy or unsure, and seek advice from your midwife or doctor if you have complications or concerns.",
       },
       {
         q: "Is pregnancy massage safe?",
-        a: "When carried out by a trained therapist who adapts techniques, positioning and pressure to each stage, pregnancy massage is considered a safe and supportive treatment. Your comfort is prioritised throughout and any concerns can be talked through before your appointment. If you have a medical condition or complications, please check with your GP or midwife first.",
+        a: "Pregnancy massage is adapted through positioning, pressure and treatment choice. You should disclose relevant health information and follow advice from your maternity team. Massage should stop if anything feels uncomfortable or concerning.",
       },
       {
         q: "Can pregnancy massage help back pain?",
-        a: "It's commonly chosen for lower back discomfort. As your body changes, the lower back, hips and surrounding muscles can become tight, and gentle massage may ease that tension so movement feels more comfortable. It doesn't treat underlying conditions, so persistent or severe pain should always be checked by your midwife or GP.",
+        a: "It may ease muscular tightness around the lower back, hips and shoulders. It does not diagnose the cause of pain. Contact your maternity team about severe, new, persistent or worrying symptoms.",
       },
       {
-        q: "What position will I be in during the massage?",
-        a: "Usually on your side, with supportive cushions keeping you comfortable. This lets you relax without pressure on your back or bump. If you need to move or change position at any point, that's always fine.",
+        q: "How will I lie during the massage?",
+        a: "Supportive cushions are used so you can rest in a comfortable position, commonly on your side. The position can change during the appointment whenever required.",
       },
       {
-        q: "Can I have a massage after giving birth?",
-        a: "Yes — postnatal (postpartum) massage is a gentle way to support your body as it recovers. Many people choose it for tension from feeding positions and carrying their baby, or simply for rest. There's no fixed timeline; it depends on when you feel ready. If you've had a caesarean or complications, check with your GP or midwife first.",
-      },
-      {
-        q: "How often should you have a pregnancy massage?",
-        a: "Some people book occasionally when discomfort builds; others prefer regular sessions throughout pregnancy. It can always be adjusted to how your body responds.",
+        q: "What should I tell you before booking?",
+        a: "Please tell me about any complications, changes in your health or advice from your midwife or doctor. If you are unsure whether massage is suitable, contact me before choosing an appointment.",
       },
     ],
     relatedServices: ["reflexology", "lymphatic-drainage-massage", "swedish-massage"],
@@ -426,13 +439,12 @@ export const services = [
     oldUrl: "/lymphatic-drainage-massage-glasgow/",
     h1: "Lymphatic Drainage Massage in Glasgow",
     eyebrow: "Gentle, rhythmic massage",
-    metaTitle: "Lymphatic Drainage Massage Glasgow | Reset Room",
+    metaTitle: "Lymphatic Drainage Massage Glasgow - The Reset Room Glasgow",
     metaDescription:
-      "Gentle lymphatic drainage massage in Glasgow to support natural lymph flow and help you feel lighter when puffy or heavy. Book your treatment online.",
+      "Lymphatic drainage massage in Glasgow designed to reduce fluid retention, ease swelling and support relaxation in a calm setting.",
     shortDesc: "A gentle, rhythmic treatment to support natural lymph flow and help you feel lighter.",
     intro: [
-      "Lymphatic drainage massage is a gentle, specialised treatment designed to support your body's natural lymph flow — popular with clients who feel puffy, heavy or sluggish and want to feel lighter again.",
-      "There's no deep pressure involved. Slow, light, rhythmic movements do the work, which is why so many people find it one of the most relaxing treatments they've had.",
+      "A very gentle, rhythmic treatment for people who feel puffy, heavy or uncomfortable with mild fluid retention. I use light, controlled movements rather than conventional massage pressure.",
     ],
     image: "lymphatic-drainage-massage-glasgow.jpg",
     suitsYouIf: [
@@ -442,17 +454,18 @@ export const services = [
       "You want something calm and restorative",
     ],
     helpsWith: {
-      heading: "When people choose lymphatic *drainage*",
-      intro: "This treatment is often booked by people who notice:",
+      heading: "Gentle support for puffiness, swelling and *heaviness*",
+      intro:
+        "Fluid retention can leave the body feeling tight, heavy or sluggish. Lymphatic drainage massage is often chosen for mild puffiness around the legs, ankles or face, or simply when deeper massage does not appeal. People commonly book when they notice:",
       items: [
-        "Puffiness in the legs, ankles or face",
-        "A heavy or tight feeling in the body",
-        "The sense of holding on to water",
-        "Heaviness after exercise",
-        "Feeling generally sluggish",
+        "Mild puffiness or water retention",
+        "Heavy or tired-feeling legs",
+        "A bloated or sluggish feeling",
+        "Temporary puffiness after travel",
+        "Sensitivity to deeper massage pressure",
+        "A need for a slow, calming treatment",
       ],
-      outro:
-        "By encouraging the natural movement of lymph fluid, the treatment is designed to leave you feeling lighter and more comfortable.",
+      outro: null,
     },
     sections: [
       {
@@ -478,10 +491,19 @@ export const services = [
       },
     ],
     whatToExpect: {
-      intro: "Your session starts with a short consultation about how you're feeling and what you'd like from the treatment.",
-      during: ["Movements are slow, light and rhythmic", "Pressure stays gentle throughout", "Everything is adapted to your comfort"],
-      after: ["A feeling of lightness", "Less of that puffy, heavy sensation", "Calm and relaxed"],
-      note: "Because the treatment works with your body rather than forcing change, many people notice the difference gradually over a day or two.",
+      intro:
+        "I will ask what you have noticed, how long it has been present and whether you have any health conditions or recent treatment that could affect suitability. The treatment itself remains slow, light and comfortable.",
+      during: [
+        "Light, controlled and repetitive movements",
+        "Much lighter pressure than Swedish or deep tissue massage",
+        "A steady pace that many clients find calming",
+      ],
+      after: [
+        "You may notice a sense of lightness or reduced puffiness",
+        "Some people simply feel deeply relaxed",
+        "Results vary from person to person",
+      ],
+      note: "Gentle movement and normal hydration can support general comfort; there is no need to force large amounts of water.",
     },
     benefits: [
       { title: "Feel lighter", desc: "Designed to ease that heavy, puffy feeling." },
@@ -490,11 +512,20 @@ export const services = [
       { title: "Deeply calming", desc: "A slow pace that makes switching off easy." },
     ],
     process: steps(
-      "Jodi asks where you feel puffy or heavy and checks for anything that means the treatment should be adapted.",
+      "I ask where you feel puffy or heavy and check for anything that means the treatment should be adapted.",
       "Light, slow, rhythmic strokes. The pressure never needs to be firm to do its job.",
       "Drink some water, keep moving gently and give your body a day or two to respond."
     ),
-    comparison: null,
+    comparison: {
+      heading: "Is this treatment right *for you?*",
+      points: [
+        { label: "Lymphatic drainage", text: "Very light, rhythmic movements for mild puffiness or heaviness." },
+        { label: "Deep tissue massage", text: "Firm, focused pressure for muscular knots." },
+        { label: "Swedish massage", text: "A flowing full-body treatment at light-to-moderate pressure." },
+      ],
+      text: "Contact me before booking if you are pregnant, receiving cancer treatment, recovering from surgery or living with a diagnosed heart, kidney, circulatory or lymphatic condition. I may ask you to obtain advice from your healthcare team before confirming that the appointment is suitable.",
+      link: { href: "/contact", label: "Ask about suitability before booking" },
+    },
     rightForYou: {
       intro: "Lymphatic drainage massage may be a good fit if you:",
       items: [
@@ -505,29 +536,29 @@ export const services = [
       ],
     },
     caveat:
-      "Lymphatic drainage massage is a wellbeing treatment, not a medical one. If you have sudden, painful or unexplained swelling — or a diagnosed condition such as lymphoedema, a heart or kidney condition, or a history of blood clots — please speak to your GP before booking.",
+      "New, painful, one-sided or unexplained swelling requires medical assessment rather than a massage appointment.",
     duration: null, // TODO(client)
     priceFrom: null, // TODO(client)
     faqs: [
       {
-        q: "What does lymphatic drainage massage do?",
-        a: "It uses gentle, rhythmic techniques to support the natural movement of lymph fluid around the body. When things feel sluggish you may notice puffiness or heaviness, and the treatment is designed to encourage natural lymph flow. Many clients describe feeling lighter and more comfortable afterwards.",
-      },
-      {
         q: "Is lymphatic drainage massage painful?",
-        a: "No — it's one of the gentlest massages there is. It uses very light, controlled movements rather than deep pressure and should feel calming throughout. Many people are surprised by how subtle it feels.",
+        a: "No. It uses very light, rhythmic movements and should feel gentle. It is quite different from deep tissue massage.",
       },
       {
-        q: "How often should I have lymphatic drainage massage?",
-        a: "If you're regularly feeling puffy or heavy, more frequent sessions may help you feel the benefit more consistently. For general wellbeing, many people book occasionally when they feel sluggish. You can adjust frequency based on how you feel after each session.",
+        q: "Can lymphatic drainage massage help water retention?",
+        a: "Some clients notice less puffiness or heaviness after treatment, particularly with mild temporary fluid retention. Results vary, and ongoing or unexplained swelling should be discussed with a healthcare professional.",
       },
       {
-        q: "Does lymphatic drainage massage help with water retention?",
-        a: "It may help with that puffy, heavy feeling by encouraging the natural movement of lymph fluid, particularly in areas like the legs and ankles. It works with your body rather than forcing change, so results tend to feel gradual. Sudden or painful swelling should always be checked by your GP.",
+        q: "Does lymphatic drainage massage cause weight loss?",
+        a: "No. A temporary change in retained fluid is not body-fat loss. I offer this as a gentle treatment for comfort and relaxation, not for weight loss.",
       },
       {
-        q: "What should I do after a lymphatic drainage massage?",
-        a: "Drink some water, keep moving gently and rest if you need to. You may notice changes over the following day or two, such as feeling lighter or more comfortable.",
+        q: "Can I book after surgery?",
+        a: "Contact me before booking. Post-operative massage requires appropriate training, correct timing and clearance from the relevant healthcare professional. Do not assume a general lymphatic drainage appointment is suitable for surgical aftercare.",
+      },
+      {
+        q: "What should I do after the treatment?",
+        a: "Continue normal hydration, move gently and pay attention to how you feel. Seek medical advice if swelling becomes painful, worsens or is accompanied by other concerning symptoms.",
       },
     ],
     relatedServices: ["pregnancy-massage", "deep-tissue-massage", "reflexology"],
@@ -541,13 +572,12 @@ export const services = [
     oldUrl: "/hot-stone-massage-glasgow/",
     h1: "Hot Stone Massage in Glasgow",
     eyebrow: "Warmth and flowing massage",
-    metaTitle: "Hot Stone Massage Glasgow | The Reset Room Glasgow",
+    metaTitle: "Hot Stone Massage Glasgow - The Reset Room Glasgow",
     metaDescription:
-      "Hot stone massage in Glasgow's East End: warm stones and flowing massage for deep relaxation without intense pressure. See availability and book online.",
+      "Hot stone massage in Glasgow designed to ease tension, encourage relaxation and help you fully switch off and unwind.",
     shortDesc: "Warm stones and flowing massage for deep relaxation without intense pressure.",
     intro: [
-      "Hot stone massage combines gentle, flowing massage with the soothing warmth of smooth heated stones, helping your body settle into relaxation more quickly.",
-      "The warmth helps muscles soften, so the treatment feels effective without needing deep pressure. It's a lovely choice if you feel physically tight, mentally drained or simply in need of time to properly switch off.",
+      "Smooth heated stones and flowing massage movements create a deeply warming treatment for muscular tension, stress and relaxation. I often recommend it when you want effective massage without relying on very firm pressure.",
     ],
     image: "massage-treatment-room-glasgow.jpg", // no real hot stone photo — TODO(client): photo of the stones
     suitsYouIf: [
@@ -557,16 +587,18 @@ export const services = [
       "You want a slower, more immersive treatment",
     ],
     helpsWith: {
-      heading: "What hot stone massage may *help* with",
-      intro: "Hot stone massage can be a good choice if you:",
+      heading: "Warmth for tired and tense *muscles*",
+      intro:
+        "Heat can make it easier for the body to settle into massage. I place warm basalt stones on selected areas and also use them in my hands, combining steady warmth with controlled massage movements. Hot stone massage may suit you if you:",
       items: [
-        "Feel physically tense or tight",
-        "Carry stress in your shoulders and back",
-        "Struggle to relax or switch off",
-        "Notice general aches or stiffness",
-        "Want a deeper sense of relaxation",
+        "Feel generally tight or physically tired",
+        "Carry stress in your back or shoulders",
+        "Prefer warmth to intense pressure",
+        "Find it difficult to switch off",
+        "Enjoy a slower, immersive treatment",
+        "Want full-body relaxation",
       ],
-      outro: "It's also popular with people who find deeper pressure uncomfortable but still want a treatment that feels substantial.",
+      outro: null,
     },
     sections: [
       {
@@ -594,14 +626,18 @@ export const services = [
     ],
     whatToExpect: {
       intro:
-        "Your session starts with a short consultation about how you're feeling, with the warmth of the stones introduced gradually.",
+        "I begin with a consultation about temperature, pressure and focus areas. I introduce the stones gradually and check their temperature throughout. They should feel comfortably warm, never painfully hot.",
       during: [
-        "Heated stones are placed on key areas of the body",
-        "Stones are also used as part of the massage",
-        "Pressure stays comfortable and tailored to you",
+        "Some stones may rest on the body while others are used to massage",
+        "You remain covered with towels throughout",
+        "You can ask for the heat or pressure to be adjusted at any time",
       ],
-      after: ["Deeply relaxed", "Physically lighter", "Calmer in your head"],
-      note: "Stone temperature is checked throughout — tell Jodi straight away if anything feels too warm.",
+      after: [
+        "Muscles often feel softer and more comfortable",
+        "Many clients feel deeply relaxed and unhurried",
+        "The warmth can leave you feeling settled for the rest of the day",
+      ],
+      note: "Tell me straight away if the heat or pressure ever feels uncomfortable.",
     },
     benefits: [
       { title: "Relaxation that builds", desc: "Warmth and slow strokes help you settle quickly." },
@@ -615,12 +651,13 @@ export const services = [
       "Stay put for a moment and let the warmth fade gently before heading back out."
     ),
     comparison: {
-      heading: "Hot stone or Swedish?",
+      heading: "Hot stone or Swedish *massage*",
       points: [
-        { label: "Hot stone massage", text: "Adds warmth to help you relax more quickly — slow and immersive." },
-        { label: "Swedish massage", text: "Flowing techniques without heat, for general relaxation." },
+        { label: "Hot stone massage", text: "Adds sustained warmth and often feels more immersive." },
+        { label: "Swedish massage", text: "Flowing movements without heated stones." },
       ],
-      text: "Neither is better — they're different experiences. If you're unsure, your treatment can be guided by how you're feeling.",
+      text: "For persistent, localised muscular tightness and firmer focused work, explore deep tissue massage.",
+      link: { href: "/treatments/deep-tissue-massage", label: "Compare deep tissue massage" },
     },
     rightForYou: {
       intro: "Hot stone massage is particularly suited to people who:",
@@ -633,29 +670,29 @@ export const services = [
     },
     // TODO(client): which contraindications does Jodi want listed (pregnancy, circulation, skin conditions, diabetes etc.)?
     caveat:
-      "Heat isn't suitable for everyone. Jodi will check your health during the consultation, and if hot stones aren't right for you on the day, the massage can be adapted.",
+      "Heat isn't suitable for everyone. I will check your health during the consultation, and if hot stones aren't right for you on the day, the massage can be adapted.",
     duration: null, // TODO(client)
     priceFrom: null, // TODO(client)
     faqs: [
       {
-        q: "What is a hot stone massage?",
-        a: "A treatment that uses smooth, heated stones placed on the body and incorporated into the massage. The warmth helps muscles soften, creating a deeply calming experience where tension can ease without strong pressure.",
+        q: "What is hot stone massage?",
+        a: "It combines massage with smooth heated basalt stones. The stones can be placed on the body and used as massage tools to provide warmth alongside flowing movements.",
       },
       {
-        q: "Is hot stone massage better than Swedish massage?",
-        a: "Neither is better — they're different. Hot stone massage uses warmth to help you relax more quickly and feels slow and immersive. Swedish massage uses flowing techniques without heat and is often chosen for general relaxation. If you're unsure, your treatment can be guided by how you're feeling.",
+        q: "Is hot stone massage painful?",
+        a: "No. The stones should feel comfortably warm and the massage pressure is adapted to you. Speak up immediately if the heat or pressure feels uncomfortable.",
       },
       {
-        q: "Does hot stone massage help with tension?",
-        a: "Many clients find it does. The warmth helps muscles soften, which can make built-up tension in the back, shoulders and neck easier to release — especially if deeper pressure feels too intense.",
+        q: "Can hot stone massage help muscle tension?",
+        a: "The combination of warmth and massage may help tense muscles feel softer and more comfortable. It is a relaxation treatment and does not diagnose or cure an underlying condition.",
       },
       {
-        q: "Is hot stone massage safe?",
-        a: "When carried out properly it's a controlled treatment. Stone temperature is carefully managed so they feel warm and comfortable, never too hot, and you're encouraged to give feedback at any point. Heat isn't suitable for everyone, so your health is checked in the consultation first.",
+        q: "Who should avoid hot stone massage?",
+        a: "Contact me before booking if you are pregnant, have reduced heat sensation, circulatory concerns, skin problems, a recent injury or another condition that may affect your response to heat. Medical advice may be required.",
       },
       {
-        q: "What should I wear to a hot stone massage?",
-        a: "Whatever you feel comfortable in. You'll be covered with towels throughout, with only the area being worked on uncovered. If it's your first massage, everything is explained before you start.",
+        q: "What should I wear?",
+        a: "Wear whatever is comfortable to arrive in. I will explain how to prepare in private and keep you appropriately covered with towels throughout the massage.",
       },
     ],
     relatedServices: ["swedish-massage", "deep-tissue-massage", "reiki"],
@@ -669,13 +706,12 @@ export const services = [
     oldUrl: "/reflexology-glasgow/",
     h1: "Reflexology in Glasgow",
     eyebrow: "A calm, foot-based therapy",
-    metaTitle: "Reflexology Glasgow | The Reset Room Glasgow",
+    metaTitle: "Reflexology Glasgow - The Reset Room Glasgow",
     metaDescription:
-      "Reflexology in Glasgow's East End: a gentle, foot-based therapy many clients find deeply calming when life feels busy. See availability and book online.",
+      "Reflexology in Glasgow designed to support relaxation, calm the mind and help you feel more balanced and restored.",
     shortDesc: "A gentle, foot-based therapy many clients find deeply calming.",
     intro: [
-      "Reflexology is a gentle, foot-based holistic therapy that many clients find deeply relaxing — a quiet hour when life feels busy and your mind won't settle.",
-      "There's nothing to manage and no aches to focus on. You simply get comfortable while gentle pressure is applied to points on your feet.",
+      "A slow, structured treatment using gentle pressure on the feet. I offer reflexology when you want quiet time to rest but do not want a full-body massage.",
     ],
     image: "massage-room-glasgow-east-end.jpg",
     suitsYouIf: [
@@ -685,17 +721,19 @@ export const services = [
       "You want time to properly switch off",
     ],
     helpsWith: {
-      heading: "Why people choose *reflexology*",
+      heading: "Reflexology for stress, sleep and *relaxation*",
       intro:
-        "Many clients book reflexology not because something is wrong, but because something feels off. It's often chosen when you're dealing with:",
+        "You do not need to have a particular problem to book reflexology. Many clients choose it because the repetitive pressure and unhurried pace help them settle. Reflexology may appeal if you:",
       items: [
-        "Stress and tension that sits in the body",
-        "Difficulty switching off",
-        "Feeling restless or unsettled",
-        "General tiredness and feeling run down",
-        "A need for calm and a clearer head",
+        "Feel stressed or mentally overloaded",
+        "Struggle to make time for rest",
+        "Want a gentle treatment",
+        "Prefer to remain clothed",
+        "Enjoy foot-based therapies",
+        "Want an alternative to massage",
       ],
-      outro: "For some people it becomes a regular way to take time out from the pace of everyday life.",
+      outro:
+        "Some clients feel deeply relaxed or sleepy during the session. Others simply appreciate an uninterrupted hour in a calm room. Experiences vary.",
     },
     sections: [
       {
@@ -721,14 +759,19 @@ export const services = [
       },
     ],
     whatToExpect: {
-      intro: "Your session starts with a short consultation about how you're feeling and what you'd like from the treatment.",
+      intro:
+        "After a short consultation, I will help you settle into a supported position and work methodically across the feet. Pressure should feel comfortable, although some points may feel more sensitive than others.",
       during: [
-        "You'll be comfortably positioned, fully clothed except for your feet",
-        "Gentle pressure is applied to specific areas of the feet",
-        "The pace stays slow and steady",
+        "You can usually remain clothed; I will explain how to prepare",
+        "Controlled pressure applied in a set sequence across the feet",
+        "You can talk, rest quietly or drift off",
       ],
-      after: ["Calm, with a quieter mind", "Physically more relaxed", "Ready for a restful evening"],
-      note: "Many clients drift into a deeply relaxed state during the session. You're welcome to ask questions at any point.",
+      after: [
+        "Many clients feel calm and unhurried",
+        "Some feel sleepy and find it easier to wind down",
+        "Others simply enjoy having had quiet time",
+      ],
+      note: "There is nothing you need to perform or get right.",
     },
     benefits: [
       { title: "Deeply calming", desc: "Slow, repetitive pressure that many find easy to sink into." },
@@ -742,12 +785,13 @@ export const services = [
       "Take a moment before you stand up. Have some water and keep the evening quiet if you can."
     ),
     comparison: {
-      heading: "Reflexology vs massage",
+      heading: "Reflexology or *massage*",
       points: [
-        { label: "Massage", text: "Works on muscles using pressure and movement across the body." },
-        { label: "Reflexology", text: "Uses gentle pressure on points on the feet, with a lighter, quieter feel." },
+        { label: "Reflexology", text: "Focuses on the feet and provides a gentler, more still experience." },
+        { label: "Massage", text: "Works directly with muscles through movement and pressure." },
       ],
-      text: "Both support relaxation in different ways, and many clients choose each at different times depending on how they feel.",
+      text: "Compare the full range if you would like to see how the options differ.",
+      link: { href: "/treatments", label: "Massage and holistic treatments in Glasgow" },
     },
     rightForYou: {
       intro: "Reflexology is particularly suited to people who:",
@@ -759,29 +803,29 @@ export const services = [
       ],
     },
     caveat:
-      "Reflexology is a complementary therapy that supports relaxation. It isn't a substitute for medical diagnosis or treatment, so please keep seeing your GP about any health concerns.",
+      "I offer reflexology as a complementary treatment for relaxation. Pressure on the feet cannot diagnose illness or treat a specific organ or medical condition.",
     duration: null, // TODO(client)
     priceFrom: null, // TODO(client)
     faqs: [
       {
         q: "What does reflexology do?",
-        a: "Reflexology involves applying gentle pressure to points on the feet, based on the idea that they relate to different areas of the body. The aim is not to treat individual conditions, but to encourage relaxation and a general sense of wellbeing. For most clients, the main benefit is how deeply relaxing it feels.",
+        a: "Reflexology applies pressure to points on the feet within a traditional mapped system. People commonly book it for relaxation and quiet time rather than for treatment of a diagnosed condition.",
       },
       {
         q: "Is reflexology painful?",
-        a: "No — it should feel gentle and comfortable throughout. Some areas of the feet can feel a little more sensitive, but pressure is always adapted so you can relax.",
+        a: "It should feel comfortable. Some points can feel more sensitive, but the pressure can be adjusted immediately.",
       },
       {
-        q: "Can reflexology help with stress and anxiety?",
-        a: "Many people choose reflexology as a way to unwind when they're feeling stressed. The slow, repetitive rhythm makes it easier to switch off. It isn't a replacement for other support, so if anxiety is affecting your day-to-day life please speak to your GP as well.",
+        q: "Can reflexology help stress or anxiety?",
+        a: "The calm setting and repetitive touch may support relaxation when you feel stressed or overwhelmed. Reflexology is complementary and does not replace mental health or medical support.",
       },
       {
-        q: "How often should I have reflexology?",
-        a: "Some people have regular sessions as part of their routine; others book when they feel overwhelmed or in need of a reset. A good guide is how you feel afterwards and how long that sense of calm lasts.",
+        q: "Can reflexology help sleep?",
+        a: "Some clients feel sleepy during or after a session and find it easier to wind down. This is an individual response, not a guaranteed treatment for insomnia.",
       },
       {
         q: "Is reflexology the same as a foot massage?",
-        a: "No. Although both involve the feet, reflexology is more structured, working through specific points rather than general massage strokes. Many clients find it feels more focused and calming than a foot massage.",
+        a: "No. A foot massage generally works with the muscles and soft tissues of the feet. Reflexology follows a structured system of pressure points traditionally associated with other areas of the body.",
       },
     ],
     relatedServices: ["reiki", "pregnancy-massage", "sound-baths"],
@@ -795,13 +839,12 @@ export const services = [
     oldUrl: "/indian-head-massage-glasgow/",
     h1: "Indian Head Massage in Glasgow",
     eyebrow: "Scalp, neck and shoulders",
-    metaTitle: "Indian Head Massage Glasgow | The Reset Room",
+    metaTitle: "Indian Head Massage Glasgow - The Reset Room Glasgow",
     metaDescription:
-      "Indian head massage in Glasgow: focused work on the scalp, neck and shoulders to release upper-body tension and quieten a busy mind. Book online today.",
+      "Indian head massage in Glasgow designed to ease tension, calm the mind and help you fully relax and switch off.",
     shortDesc: "Focused work on the scalp, neck and shoulders to release upper-body tension.",
     intro: [
-      "Indian head massage is a focused treatment for the head, neck and shoulders — the places stress tends to settle without you noticing.",
-      "Whether your neck is stiff from screens, your shoulders are tight or your head just feels too full, it's a gentle but effective way to let both body and mind unwind.",
+      "A focused treatment for tension held in the scalp, neck, shoulders and upper back. I recommend Indian head massage when your discomfort sits mainly above the shoulders or your mind feels as busy as your muscles feel tight.",
     ],
     image: "private-massage-room-glasgow.jpeg",
     suitsYouIf: [
@@ -811,16 +854,18 @@ export const services = [
       "You want a shorter, focused treatment",
     ],
     helpsWith: {
-      heading: "What Indian head massage may *help* with",
-      intro: "Indian head massage can be a good choice if you notice:",
+      heading: "Relief for head, neck and shoulder *tension*",
+      intro:
+        "Desk work, driving, phone use and stress can all contribute to a heavy head, raised shoulders and a stiff neck. I concentrate on these areas using rhythmic movements, compression and focused pressure adapted to your comfort. People often choose it for:",
       items: [
-        "Head pressure linked to neck and shoulder tightness",
-        "Neck and shoulder tension",
-        "Mental tiredness",
-        "Tightness from desk work or screen use",
-        "Difficulty switching off",
+        "Tight neck and shoulder muscles",
+        "Upper-back tension",
+        "Scalp tension or a heavy-headed feeling",
+        "Desk and screen-related tightness",
+        "Stress and mental fatigue",
+        "A shorter, concentrated treatment",
       ],
-      outro: "Because the treatment concentrates on these key areas, many clients notice a difference after a single session.",
+      outro: null,
     },
     sections: [
       {
@@ -844,14 +889,19 @@ export const services = [
       },
     ],
     whatToExpect: {
-      intro: "Your session starts with a short consultation about how you're feeling and where you tend to hold tension.",
+      intro:
+        "Your treatment focuses on the upper back, shoulders, neck and scalp. I will ask where you feel the most tension and whether you want oil used on the scalp. If you would like to keep your hair dry, tell me before the appointment so I can explain the options.",
       during: [
-        "Focus is on the scalp, neck and shoulders",
-        "Pressure is adjusted to your comfort",
-        "Oil is optional — let Jodi know your preference",
+        "Rhythmic movements, compression and focused pressure",
+        "Pressure can be adjusted at any point",
+        "I will explain how to prepare and keep you comfortable throughout",
       ],
-      after: ["Lighter in the head and shoulders", "More relaxed", "Clearer-headed"],
-      note: "Some clients notice relief straight away; for others the benefits build over time.",
+      after: [
+        "Many clients feel lighter around the shoulders",
+        "The steady pace provides time to switch off",
+        "Scalp and neck tension may feel easier",
+      ],
+      note: "Let me know before booking if keeping your hair oil-free matters to you.",
     },
     benefits: [
       { title: "Releases upper-body tension", desc: "Focused work on the neck, shoulders and scalp." },
@@ -860,18 +910,18 @@ export const services = [
       { title: "Oil is your choice", desc: "Skip it if you have plans afterwards." },
     ],
     process: steps(
-      "Jodi asks where you hold tension and whether you'd like oil on your scalp.",
+      "I ask where you hold tension and whether you'd like oil on your scalp.",
       "Rhythmic, targeted work through the shoulders, neck and scalp, adjusted to your comfort.",
       "Take a moment to come round, have some water and roll your shoulders on the way out."
     ),
     comparison: {
-      heading: "Indian head massage vs full-body massage",
+      heading: "Indian head or full body *massage*",
       points: [
-        { label: "Indian head massage", text: "Focuses on the scalp, neck and shoulders, where stress commonly builds." },
-        { label: "Full-body massage", text: "Works across the whole body, addressing tension more broadly." },
+        { label: "Indian head massage", text: "Choose it when the scalp, neck and shoulders are your priority." },
+        { label: "Swedish massage", text: "Flowing full-body relaxation." },
+        { label: "Deep tissue massage", text: "When muscular tension extends across the back or hips." },
       ],
-      text: "Choose Indian head massage when tension is concentrated in your upper body or you want something shorter. Swedish massage may suit you better for whole-body relaxation.",
-      link: { href: "/treatments/swedish-massage", label: "See Swedish massage" },
+      text: "If you are not sure which fits, book the closest match and tell me on the day.",
     },
     rightForYou: {
       intro: "Indian head massage is particularly suited to people who:",
@@ -888,24 +938,24 @@ export const services = [
     priceFrom: null, // TODO(client)
     faqs: [
       {
-        q: "What is Indian head massage?",
-        a: "A focused treatment for the scalp, neck, shoulders and upper back — areas where many people hold stress without realising. Gentle pressure, rhythmic movements and targeted techniques help release tightness in the upper body and encourage a calmer state of mind.",
+        q: "What areas does Indian head massage cover?",
+        a: "It normally focuses on the upper back, shoulders, neck and scalp. I will confirm the areas included and adapt the treatment to your comfort.",
       },
       {
-        q: "Can Indian head massage help headaches?",
-        a: "It may ease tension-type headaches linked to tightness in the neck, shoulders and scalp, by helping those muscles relax. It isn't a solution for every headache or for migraine. If you get recurring or severe headaches, please speak to your GP.",
+        q: "Can Indian head massage help tension headaches?",
+        a: "It may help when a headache is associated with muscular tension around the scalp, neck and shoulders. It is not suitable for every type of headache. Seek medical advice for new, severe, unusual or persistent headaches or any neurological symptoms.",
       },
       {
-        q: "Do you need oil for Indian head massage?",
-        a: "Not always. Oil can be used on the scalp, but if you'd rather avoid it — because of your hair, plans afterwards or personal preference — just mention it before your session and the treatment will be adapted.",
+        q: "Is oil used in Indian head massage?",
+        a: "Oil may be used on the scalp. Let me know before booking if keeping your hair oil-free matters to you, so I can confirm what is possible for that session.",
       },
       {
-        q: "How long does an Indian head massage last?",
-        a: "It's usually shorter than a full-body massage, which is part of why it's so accessible. Current appointment lengths are shown when you book online.",
+        q: "Do I stay clothed?",
+        a: "That depends on the format of the appointment and the areas being treated. I will explain how to prepare and maintain your privacy and comfort throughout.",
       },
       {
-        q: "Is Indian head massage relaxing?",
-        a: "Yes — it's both relaxing and targeted. Many people choose it not only for tight shoulders but because they want help getting out of that constantly busy headspace.",
+        q: "How long is Indian head massage?",
+        a: "Available appointment lengths and prices are shown in the live online booking system. Choose the time that suits you and check the service description before confirming.",
       },
     ],
     relatedServices: ["deep-tissue-massage", "reiki", "swedish-massage"],
@@ -919,13 +969,12 @@ export const services = [
     oldUrl: "/reiki-glasgow/",
     h1: "Reiki in Glasgow",
     eyebrow: "Stillness and light touch",
-    metaTitle: "Reiki Glasgow | The Reset Room Glasgow",
+    metaTitle: "Reiki Glasgow - The Reset Room Glasgow",
     metaDescription:
-      "Reiki in Glasgow's East End: a still, light-touch treatment for when your mind won't switch off. Optional singing bowls in a private 1:1 session. Book online.",
+      "Reiki in Glasgow offering a calm, non-invasive treatment designed to support relaxation, balance and overall wellbeing.",
     shortDesc: "A still, light-touch treatment for when your mind won't switch off.",
     intro: [
-      "Reiki is a gentle, calming treatment that gives you an hour of complete stillness. Using light touch, or hands held just above the body, it creates space to rest without pressure or massage.",
-      "It's often chosen when you're feeling overwhelmed, mentally busy or simply in need of time to switch off, in a private room in Glasgow's East End.",
+      "A quiet complementary treatment when you want stillness without massage. I use light touch or hold my hands just above the body while you remain fully clothed and comfortable.",
     ],
     image: "therapy-room-glasgow-east-end.jpg",
     suitsYouIf: [
@@ -935,16 +984,18 @@ export const services = [
       "You're open to a different kind of relaxation",
     ],
     helpsWith: {
-      heading: "When people choose *Reiki*",
-      intro: "Clients often book Reiki when they:",
+      heading: "A gentle treatment for a busy *mind*",
+      intro:
+        "Reiki may suit you when you feel mentally overloaded, emotionally tired or simply in need of uninterrupted rest. There is no pressure to talk, meditate or achieve a particular state. People often choose Reiki because they:",
       items: [
-        "Feel stressed or overwhelmed",
-        "Struggle to switch off",
-        "Feel mentally or emotionally drained",
-        "Want a non-touch or very light-touch treatment",
-        "Are looking for a calm, restorative hour",
+        "Want time to slow down",
+        "Prefer very light touch or no touch",
+        "Feel stressed or emotionally drained",
+        "Do not want muscular massage",
+        "Enjoy complementary wellbeing practices",
+        "Are curious but unsure what to expect",
       ],
-      outro: "It isn't about targeting one issue. It's about creating a space where body and mind can settle.",
+      outro: null,
     },
     sections: [
       {
@@ -977,14 +1028,19 @@ export const services = [
       },
     ],
     whatToExpect: {
-      intro: "Your session starts with a short consultation about how you're feeling and what you'd like from the treatment.",
+      intro:
+        "After a short consultation, I will help you settle comfortably and confirm whether you prefer light touch or hands held above the body.",
       during: [
-        "You lie comfortably, fully clothed, in a quiet room",
-        "Hands are placed lightly on or just above the body",
-        "The pace stays slow and steady",
+        "You remain fully clothed throughout",
+        "I place my hands lightly on or just above different areas of the body",
+        "You can ask for extra support or warmth at any time",
       ],
-      after: ["Deeply relaxed", "Quieter in your head", "Lighter and more settled"],
-      note: "Every experience is individual and there's no expectation of what you should feel.",
+      after: [
+        "Some people notice warmth, tingling or a sense of heaviness",
+        "Others feel relaxed or drift towards sleep",
+        "Some notice very little during the session",
+      ],
+      note: "There is no correct response and no need to believe anything specific before booking.",
     },
     benefits: [
       { title: "Complete stillness", desc: "Nothing to do and nothing asked of you." },
@@ -993,17 +1049,19 @@ export const services = [
       { title: "Sound if you'd like", desc: "Singing bowls can be added to a 1:1 session." },
     ],
     process: steps(
-      "Jodi asks how you're feeling, whether you'd prefer light touch or none, and whether you'd like sound added.",
+      "I ask how you're feeling, whether you'd prefer light touch or none, and whether you'd like sound added.",
       "You rest, fully clothed, while hands are placed lightly on or just above the body.",
       "Come round slowly. There's no rush to get up or to talk."
     ),
     comparison: {
-      heading: "Reiki vs massage",
+      heading: "Reiki with *sound*",
       points: [
-        { label: "Massage", text: "Works physically through muscles using pressure and movement." },
-        { label: "Reiki", text: "Very light or no touch, with no muscle work — still and quiet." },
+        { label: "Reiki one to one", text: "A still, fully clothed session with light touch or no touch." },
+        { label: "Reiki with sound", text: "Gentle singing bowls or other sound elements added for a more immersive session." },
+        { label: "Sound bath", text: "A scheduled group session based mainly around gongs and singing bowls." },
       ],
-      text: "Some clients use both at different times depending on whether they feel physically tense or mentally overloaded.",
+      text: "If you prefer a group session based mainly around gongs and singing bowls, explore sound baths.",
+      link: { href: "/sound-baths", label: "Explore sound baths in Glasgow" },
     },
     rightForYou: {
       intro: "Reiki is particularly suited to people who:",
@@ -1015,29 +1073,29 @@ export const services = [
       ],
     },
     caveat:
-      "Reiki is a complementary practice for relaxation. It isn't a substitute for medical or psychological care, so please keep in touch with your GP about any health concerns.",
+      "Reiki is not a medical treatment and should not replace diagnosis, medication, counselling or other professional healthcare.",
     duration: null, // TODO(client)
     priceFrom: null, // TODO(client)
     faqs: [
       {
-        q: "What is Reiki?",
-        a: "A gentle, relaxation-focused practice. You lie fully clothed while hands are placed lightly on or just above the body, with no pressure or massage involved. It's often chosen as a calm, non-invasive alternative to massage.",
-      },
-      {
-        q: "Do you need to believe in Reiki for it to work?",
-        a: "No belief or prior understanding is needed. At its simplest, Reiki gives you a calm, uninterrupted space to rest, and many people who aren't sure about it still say they felt more settled afterwards. It's best approached as a relaxing experience.",
+        q: "Do I need to believe in Reiki?",
+        a: "No. You can approach it as a quiet complementary wellbeing experience. There is no requirement to hold a particular belief or feel a particular sensation.",
       },
       {
         q: "Is Reiki the same as massage?",
-        a: "No. Massage works physically through the muscles with pressure and movement. Reiki is much lighter, with little or no physical contact. People often choose Reiki when they feel mentally overwhelmed rather than physically tense, or when they'd like a still, quiet experience.",
+        a: "No. Massage uses pressure and movement to work with muscles. Reiki involves little or no physical pressure and you remain fully clothed.",
       },
       {
-        q: "What does Reiki feel like?",
-        a: "Most people describe it as deeply calming, though it varies. Many notice a quieter mind during the session and feel lighter or more settled afterwards. There's no right or wrong way to experience it.",
+        q: "What might I feel during Reiki?",
+        a: "Experiences differ. You might notice warmth, tingling, sleepiness or a calmer mind, or you may simply enjoy lying quietly. None of these responses proves or disproves anything about the session.",
       },
       {
         q: "Can Reiki help with stress and anxiety?",
-        a: "Many people use Reiki as a way to unwind when they feel stressed. It offers a space where nothing is required of you, which can make switching off easier. It isn't a replacement for other support, so if anxiety is affecting your life please speak to your GP as well.",
+        a: "A quiet Reiki session may support relaxation and give you respite from a busy mind. It is not a treatment for an anxiety disorder and should complement rather than replace appropriate professional support.",
+      },
+      {
+        q: "What should I wear for Reiki?",
+        a: "Wear comfortable clothing. You remain clothed throughout the session and can ask for extra support or warmth.",
       },
     ],
     relatedServices: ["sound-baths", "reflexology", "indian-head-massage"],
@@ -1053,31 +1111,31 @@ export const services = [
     oldUrl: "/sound-bath-glasgow/",
     h1: "Sound Baths in Glasgow",
     eyebrow: "Group sessions in the East End",
-    metaTitle: "Sound Baths Glasgow | The Reset Room Glasgow",
+    metaTitle: "Sound Bath Glasgow - The Reset Room Glasgow",
     metaDescription:
-      "Sound baths in Glasgow: lie back and let singing bowls, gongs and chimes help you slow down. No experience needed. See upcoming dates and get in touch.",
+      "Sound baths in Glasgow designed to help you relax, slow down mentally and experience deep rest through immersive sound.",
     shortDesc: "Lie back, get comfortable and let singing bowls, gongs and chimes help you slow down.",
     image: "sound-bath-room-glasgow.jpeg",
     faqs: [
       {
         q: "What is a sound bath?",
-        a: "A guided relaxation session where singing bowls, gongs and chimes are played slowly in layers while you lie down and listen. There's nothing you need to do or follow — you simply get comfortable and let the sound fill the room.",
+        a: "A sound bath is a guided relaxation session using live instruments such as gongs, singing bowls and chimes. Participants usually lie down and listen as the sound changes around them.",
       },
       {
-        q: "Do you need experience for a sound bath?",
-        a: "No. There's no technique, breathing pattern or prior experience needed, and you can't get it wrong. That makes it a very accessible option if you're new to relaxation practices or find meditation difficult.",
+        q: "Do I need meditation experience?",
+        a: "No. Beginners are welcome and there is no technique to master. I will explain what happens before the sound begins.",
       },
       {
-        q: "Is a sound bath the same as meditation?",
-        a: "They're similar, but different. Meditation usually asks you to focus your attention, which can be hard when your mind is busy. In a sound bath the sound gives your mind something gentle to rest on, so many people find it easier to relax without trying.",
+        q: "What should I bring?",
+        a: "Comfortable clothing, water and an extra layer or blanket are often useful when lying still.",
       },
       {
-        q: "Can sound baths help with stress?",
-        a: "Many people come to sound baths as a way to slow down and take a break from constant stimulation. It isn't a replacement for other support, but it can be a helpful way to create space to rest.",
+        q: "Can sound baths help stress or sleep?",
+        a: "Many people feel relaxed during and after a sound bath, and some find it easier to wind down. Results vary, and a sound bath is not a replacement for medical or mental health care.",
       },
       {
-        q: "Where do sound baths take place in Glasgow?",
-        a: "Sessions are held at The Reset Room in Bridgeton, in Glasgow's East End, and are scheduled at different times depending on room availability. New dates are shared on Instagram and Facebook as well as on this page.",
+        q: "Where are your Glasgow sound baths held?",
+        a: "I hold sound baths within my treatment room in Bridgeton, which provides a relaxing, tranquil and cosy environment for you to switch off and relax. I offer smaller sound baths with numbers of no more than 10, which helps to create an intimate experience that clients love.",
       },
     ],
     relatedServices: ["reiki", "reflexology", "swedish-massage"],

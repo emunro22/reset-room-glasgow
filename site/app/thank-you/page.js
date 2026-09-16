@@ -5,7 +5,7 @@ import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
   title: "Thank You | The Reset Room Glasgow",
-  description: "Thanks for getting in touch with The Reset Room Glasgow. Jodi will reply as soon as she can — or book your treatment online now to choose a time.",
+  description: "Thanks for getting in touch with The Reset Room Glasgow. I will reply as soon as I can — or book your treatment online now to choose a time.",
   path: "/thank-you",
   noindex: true,
 });
@@ -19,7 +19,7 @@ export default function ThankYouPage() {
         <Prose
           className="mt-6"
           paragraphs={[
-            "Your message has reached Jodi, and she'll get back to you as soon as she can — usually by email, or by phone if you left a number.",
+            "Your message has reached me, and I'll get back to you as soon as I can — usually by email, or by phone if you left a number.",
             "If you already know what you'd like, you don't need to wait for a reply. Online booking shows live availability and confirms your appointment straight away.",
           ]}
         />

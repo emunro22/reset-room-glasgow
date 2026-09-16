@@ -55,7 +55,7 @@ export default function BookPage() {
               ))}
             </ul>
             <p className="mt-6 text-ink-soft">
-              Not sure? Choose the closest match — Jodi can adapt the treatment after your consultation. Looking for a sound bath? See <TextLink href="/sound-baths">upcoming sessions</TextLink>.
+              Not sure? Choose the closest match — I can adapt the treatment after your consultation. Looking for a sound bath? See <TextLink href="/sound-baths">upcoming sessions</TextLink>.
             </p>
           </div>
 

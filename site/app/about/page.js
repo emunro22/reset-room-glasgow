@@ -9,9 +9,9 @@ import { services, serviceHref } from "@/content/services";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "About Jodi | The Reset Room Glasgow",
+  title: "About The Reset Room Glasgow - Massage Therapy Glasgow",
   description:
-    "Meet Jodi, a massage and holistic therapist in Glasgow with over 10 years' experience, an HND and a BSc. A calm, personal approach. Book your treatment online.",
+    "Learn more about The Reset Room Glasgow and the calm, personalised approach behind our massage and holistic treatments.",
   path: "/about",
   image: "/images/jodi-massage-therapist-glasgow.jpg",
   type: "profile",
@@ -32,13 +32,14 @@ export default function AboutPage() {
           <div>
             <Eyebrow>Meet your therapist</Eyebrow>
             <h1 className="font-display text-[2rem] font-normal leading-[1.12] text-ink min-[360px]:text-4xl min-[360px]:leading-[1.1] md:text-6xl">
-              Hi, I&rsquo;m Jodi. This is your space to <em className="italic text-highlight">reset</em>.
+              About The Reset Room <em className="italic text-highlight">Glasgow</em>
             </h1>
+            <H2 text="Meet *Jodi*" className="!mt-8 !text-2xl md:!text-3xl" />
             <Prose
-              className="mt-6 max-w-xl"
+              className="mt-5 max-w-xl"
               paragraphs={[
-                "I'm a massage and holistic therapist based in Glasgow, working with people who feel tense, overwhelmed, or simply in need of time to properly switch off.",
-                "I created The Reset Room to feel professional without feeling formal — a calm, welcoming place where you can put everything down for an hour and leave feeling more like yourself.",
+                "Hi, I am Jodi, a qualified and insured massage and holistic therapist based in Bridgeton, Glasgow's East End. I work with people who feel physically tense, mentally overloaded or simply overdue some proper time to themselves.",
+                "You do not need to know the perfect treatment before you arrive. I start with how you feel, what you want help with and what kind of pressure you enjoy, then adapt the appointment around you.",
               ]}
             />
             <div className="mt-8 flex flex-wrap gap-3">
@@ -88,11 +89,20 @@ export default function AboutPage() {
               sizes="(min-width: 768px) 320px, 80vw"
             />
             <div className="rounded-2xl bg-ink p-8 text-surface">
-              <h3 className="font-display text-2xl">My background</h3>
+              <h3 className="font-display text-2xl">Qualifications and Experience</h3>
               <p className="mt-4 leading-relaxed text-surface">
-                I have over 10 years&rsquo; experience in massage and complementary therapies, with a background in both hands-on treatment and integrative health.
+                I have more than 10 years&rsquo; experience in massage and complementary therapies. My qualifications
+                include:
               </p>
-              <CheckList dark className="mt-6" items={[...business.qualifications, "Trained and insured therapist", "Ongoing training and CPD"]} />
+              <CheckList
+                dark
+                className="mt-6"
+                items={[...business.qualifications, "Ongoing professional development across the treatments I offer"]}
+              />
+              <p className="mt-6 leading-relaxed text-surface">
+                I offer focused and relaxing massage, as well as gentler treatments such as reflexology, Reiki and
+                sound baths.
+              </p>
               {/* TODO(client): professional body membership + insurer — add only once confirmed */}
             </div>
             <H3 text="Treatments I *offer*" className="mt-12" />
